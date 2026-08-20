@@ -55,6 +55,8 @@ void InputManager::update()
 // 
 ButtonEvent InputManager::getEvent(ButtonID btn)
 {
+  if (btn >= BTN_COUNT) return BTN_EVENT_NONE;
+  
   unsigned long currentMillis = millis();
 
   // Create an object with the referance of the button ID
@@ -66,6 +68,11 @@ ButtonEvent InputManager::getEvent(ButtonID btn)
     {
       b.longPressHandled = true;
       return BTN_EVENT_LONG_PRESS;
+    }
+    
+    else if (b.longPressHandled)
+    {
+      return BTN_EVENT_HOLD;
     }
   }
   else

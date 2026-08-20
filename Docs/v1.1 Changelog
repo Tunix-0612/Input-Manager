@@ -1,0 +1,13 @@
+[Added]
+    - In case of a wrong button ID number is prompted to getEvent it now return BTN_EVENT_NONE.
+    - BTN_EVENT_HOLD is now functional
+        * BTN_EVENT_HOLD is triggered when the button is pressed longer than the HOLD event, meaning it triggers LONG_PRESS once.
+
+[Changed]
+    - 
+    
+[Removed]
+    - 
+
+[Fixed]
+    - 
