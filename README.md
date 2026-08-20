@@ -69,7 +69,7 @@ while (true)
 ---
 
 **Handling Continuous Button Hold**
-  - **v1.1 and Newer**
+  - **v1.1.x and Newer**
 
 ```cpp
 ButtonEvent evt = inputManager.getEvent(BTN_UP);
@@ -82,7 +82,7 @@ if (evt == BTN_EVENT_HOLD)
 
 ```
 
-  - **v1.0 Legacy**
+  - **v1.0.x Legacy**
 
 ```cpp
 unsigned long currentMillis = millis();
