@@ -1,4 +1,4 @@
-# T Core Modules
+# Input Manager
 
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-Build-orange?style=flat-square&logo=platformio)](https://platformio.org/)
 
