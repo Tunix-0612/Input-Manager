@@ -6,6 +6,8 @@ A lightweight, memory-efficient input handling module designed to manage button 
 
 This Module can be updated easily in an existing program as long as only the pre-defined 4 buttons are used.
 
+Buttons are hard-coded as INPUT_PULLUP.
+
 ---
 
 ## Key Features
